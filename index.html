@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Guitar Lessons</title>
+</head>
+
+<body>
+    <header>
+        <h1>Guitar Lessons for Beginners</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#lesson1">Lesson 1</a></li>
+            <li><a href="#lesson2">Lesson 2</a></li>
+            <li><a href="#lesson3">Lesson 3</a></li>
+            <li><a href="#lesson4">Lesson 4</a></li>
+            <li><a href="#lesson5">Lesson 5</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <section id="lesson1">
+            <h2><a href="lesson1.html" class="lesson-link">Lesson 1: Introduction to the Guitar</a></h2>
+            <p>Welcome to your first guitar lesson! In this lesson, we'll cover the basics of the guitar.</p>
+           
+        </section>
+
+        <section id="lesson2">
+            <h2><a href="lesson2.html" class="lesson-link">Lesson 2: Basic Chords and Strumming</a></h2>
+            <p>Introduce common beginner chords (e.g., C, G, D) and basic strumming patterns.</p>
+           
+        </section>
+
+        <section id="lesson3">
+            <h2><a href="lesson3.html" class="lesson-link">Lesson 3: Playing Simple Songs</a></h2>
+            <p>Teach beginners to play a simple song using the chords and strumming patterns learned in Lesson 2.</p>
+            
+        </section>
+
+        <section id="lesson4">
+            <h2><a href="lesson4.html" class="lesson-link">Lesson 4: Fingerstyle Techniques</a></h2>
+            <p>Explore fingerstyle techniques to enhance your guitar playing skills.</p>
+            
+        </section>
+
+        <section id="lesson5">
+            <h2><a href="lesson5.html" class="lesson-link">Lesson 5: Transitioning Between Chords</a></h2>
+            <p>Learn how to smoothly transition between different chords for a seamless playing experience.</p>
+           
+        </section>
+        <section id="feedback">
+            <h2>Submit Feedback</h2>
+            <form id="feedbackForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+        
+                <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <script src="script.js"></script>
+        <p>&copy; 2023 Your Guitar Learning Website</p>
+    </footer>
+</body>
+
+</html>
